@@ -21,7 +21,6 @@ public class Task {
 		for (int i = 0; i < numbers.length; i++) {
 
 			for (int j = 0; j < numbers[i].length; j++) {
-
 				int element = numbers[i][j];
 
 				if (element % 2 != 0) {
