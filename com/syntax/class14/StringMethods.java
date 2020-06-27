@@ -53,7 +53,7 @@ public class StringMethods {
 		
 		System.out.println(day+month);
 		System.out.println(month+day);
-		
+	
 		//System.out.println(month.concat(day)); cannot use because both values must be String
 		//System.out.println(day.concat(month)); CE: day is an int type and it does not have an access to String methods
 		
@@ -77,5 +77,5 @@ public class StringMethods {
 		System.out.println("-----  After Trimming  -------");
 		System.out.println(cat.trim());
 		System.out.println(dog.trim());
-	}//BREAK FROM 11:35-11:50
+	}
 }
