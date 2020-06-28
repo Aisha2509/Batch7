@@ -33,5 +33,7 @@ public class StringImmutable {
 		System.out.println("Value of str2 after assignment=" + str2);
 		System.out.println("Value of str 3=" + str3);
 		System.out.println("Value of str 4=" + str4);
+
+		String str5 = new String("Hello");
 	}
 }
