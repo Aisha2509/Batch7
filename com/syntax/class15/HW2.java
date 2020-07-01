@@ -45,5 +45,6 @@ public class HW2 {
 		
 		int lengthOfNewDay=day.substring(3).toUpperCase().length();//3
 		System.out.println(lengthOfNewDay);
+	
 	}
 }
