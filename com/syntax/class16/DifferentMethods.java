@@ -10,7 +10,7 @@ public class DifferentMethods {
 		}
 	}
 	
-	//create that will print any word any number of times
+	//create method that will print any word any number of times
 	
 	void printAnyWord(String word, int times) {
 		
@@ -30,5 +30,4 @@ public class DifferentMethods {
 			System.out.println("Go ahead and study");
 		}
 	}
-	
 }
