@@ -31,7 +31,6 @@ public class MoreMethods {
 	}
 	//create a method that will accept a String and return words from that string
 	//Hello World, Good night friends
-	
 	String[] getWords(String str) {
 		return str.split(" ");
 	}
