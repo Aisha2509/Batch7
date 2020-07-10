@@ -7,7 +7,6 @@ public class StringDifference {
 		String name="Madeeha";
 		
 		String name1=new String("Madeeha");
-		//name1="Madeeha";
 		
 		System.out.println(name);
 		System.out.println(name1);
@@ -15,7 +14,6 @@ public class StringDifference {
 		if(name.equals(name1)) {
 			System.out.println("Strings are equal using equals method");
 		}
-		
 		
 		if(name==name1) {
 			System.out.println("Strings are equal using == operator");
