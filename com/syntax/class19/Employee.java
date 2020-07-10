@@ -2,12 +2,12 @@ package com.syntax.class19;
 
 public class Employee {
 
-	public static String company;//any class from any package in the project
+	public static String company;//visible to any class from any package in the project
 	
 	public String name, lastName;//any class from any package in the project
-	protected int age;//if class within same package it can access all protected members
-	double salary;////if class within same package it can access all default members
-	private long ssn;//only it is own class/same can have an access to private members
+	protected int age;//visible to class within same package it can access all protected members
+	double salary;//visible to class within same package it can access all default members
+	private long ssn;//visible to only it is own class
 	
 	public static void displayCompany() {
 		System.out.println("Employee works at "+company);
